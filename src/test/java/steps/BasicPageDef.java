@@ -15,4 +15,9 @@ public class BasicPageDef {
     public void clickButtonSpan(String arg0) {
         basicPage.clickButtonSpan(arg0);
     }
+
+    @Then("Content with {string} visible")
+    public void contentIsVisible(String arg0) {
+        basicPage.contentIsVisible(arg0);
+    }
 }

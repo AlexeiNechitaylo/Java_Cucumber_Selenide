@@ -4,4 +4,6 @@ Feature: Login User
     Then Click "Sign in" button
     Then Input login
     Then Input password
-    Then Click "Submit" button span
+    Then Click "Sign in" button span
+    Then Content with "The world’s largest selection of courses" visible
+

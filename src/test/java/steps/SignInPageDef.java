@@ -2,6 +2,7 @@ package steps;
 
 import config.UserConfig;
 import io.cucumber.java.en.Then;
+import pages.BasicPage;
 import pages.SignInPage;
 
 public class SignInPageDef {

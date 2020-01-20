@@ -29,8 +29,8 @@
         <scope>test</scope>
     </dependency>
 
-        <dependency>
-            <groupId>com.codeborne</groupId>
+    <dependency>
+           <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>5.6.0</version>
             <scope>compile</scope>
